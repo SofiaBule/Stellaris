@@ -1,0 +1,17 @@
+# Simplified version of Stellaris-like game
+class Stellaris:
+    def __init__(self):
+        self.empire = {"resources": {"energy": 100, "minerals": 50, "influence": 0}, "planets": []}
+        self.explored_systems = []
+
+    def explore_system(self):
+        pass
+
+    def colonize_planet(self):
+        pass
+
+    def conduct_diplomacy(self):
+        pass
+
+# Example usage:
+stellaris = Stellaris()
